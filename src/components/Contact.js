@@ -50,10 +50,7 @@ const Contact = () => {
                     setinpValue('')
                     alertColor.current.style.color='red'
 
-                    
-                 
-                console.error('Failed to send email:', err);
-                return
+                    return
             });
         
             
